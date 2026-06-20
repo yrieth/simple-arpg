@@ -1,0 +1,499 @@
+[gd_resource type="Resource" script_class="GaeaGraph" format=3 uid="uid://1xq3fk3hhywq"]
+
+[ext_resource type="Script" uid="uid://e45byecr4gi6" path="res://addons/gaea/runtime/resources/materials/data/tilemap_material.gd" id="1_pprl4"]
+[ext_resource type="Script" uid="uid://3qsmwhn2sk47" path="res://addons/gaea/runtime/resources/layer.gd" id="2_0xd4w"]
+[ext_resource type="Script" uid="uid://cj08rybcfwlle" path="res://addons/gaea/runtime/resources/materials/material.gd" id="2_juhuo"]
+[ext_resource type="Script" uid="uid://dtocuov1r8agi" path="res://addons/gaea/runtime/resources/materials/distribution/pointwise_random_material.gd" id="3_6a2gd"]
+[ext_resource type="Script" uid="uid://dae6umbqb872e" path="res://addons/gaea/runtime/resources/graph.gd" id="3_juhuo"]
+[ext_resource type="Resource" uid="uid://bx1wv75m5dqvc" path="res://grass_material.tres" id="4_6a2gd"]
+
+[sub_resource type="Resource" id="Resource_tw3kd"]
+script = ExtResource("1_pprl4")
+source_id = 6
+preview_color = Color(0.509559, 0.015447798, 0.22419599, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_gf4j1"]
+script = ExtResource("1_pprl4")
+source_id = 6
+atlas_coord = Vector2i(0, 8)
+preview_color = Color(0.677139, 0.8740689, 0.2874623, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_qndh5"]
+script = ExtResource("1_pprl4")
+source_id = 6
+atlas_coord = Vector2i(0, 8)
+preview_color = Color(0.8748871, 0.7257684, 0.91166633, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_tl3nt"]
+script = ExtResource("1_pprl4")
+source_id = 6
+atlas_coord = Vector2i(1, 10)
+preview_color = Color(0.07843597, 0.15885012, 0.14435396, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_2wqau"]
+script = ExtResource("1_pprl4")
+source_id = 6
+atlas_coord = Vector2i(3, 10)
+preview_color = Color(0.17647581, 0.65351677, 0.24018684, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_xfqd2"]
+script = ExtResource("1_pprl4")
+source_id = 6
+atlas_coord = Vector2i(1, 12)
+preview_color = Color(0.48104692, 0.0456102, 0.20850416, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_y2aqm"]
+script = ExtResource("1_pprl4")
+source_id = 6
+atlas_coord = Vector2i(5, 13)
+preview_color = Color(0.0011063367, 0.16527782, 0.34106365, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_wc3dw"]
+script = ExtResource("1_pprl4")
+source_id = 6
+atlas_coord = Vector2i(2, 12)
+preview_color = Color(0.42321324, 0.7882488, 0.060412694, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_4h66l"]
+script = ExtResource("1_pprl4")
+source_id = 6
+atlas_coord = Vector2i(0, 14)
+preview_color = Color(0.83761466, 0.18552858, 0.6475764, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_cg8yd"]
+script = ExtResource("3_6a2gd")
+materials = Array[ExtResource("2_juhuo")]([SubResource("Resource_gf4j1"), SubResource("Resource_qndh5"), SubResource("Resource_tl3nt"), SubResource("Resource_2wqau"), SubResource("Resource_xfqd2"), SubResource("Resource_y2aqm"), SubResource("Resource_wc3dw"), SubResource("Resource_4h66l")])
+weights = PackedFloat32Array(25, 25, 14, 12, 12, 4, 4, 4)
+preview_color = Color(0.8892413, 0.26646647, 0.57234406, 1)
+metadata/_custom_type_script = "uid://dtocuov1r8agi"
+
+[sub_resource type="Resource" id="Resource_0q5a4"]
+script = ExtResource("1_pprl4")
+preview_color = Color(0.15116473, 0.2596963, 0.10134944, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_j6iae"]
+script = ExtResource("1_pprl4")
+type = 2
+pattern_offset = Vector2i(-4, -5)
+preview_color = Color(0.24172567, 0.19383487, 0.5833328, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_7o6lw"]
+script = ExtResource("1_pprl4")
+type = 2
+pattern_index = 1
+pattern_offset = Vector2i(-3, -4)
+preview_color = Color(0.67200214, 0.39786425, 0.62009704, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_55rj8"]
+script = ExtResource("1_pprl4")
+type = 2
+pattern_index = 2
+pattern_offset = Vector2i(-3, -4)
+preview_color = Color(0.41552854, 0.6815453, 0.43402258, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_wcjpr"]
+script = ExtResource("1_pprl4")
+type = 2
+pattern_index = 3
+pattern_offset = Vector2i(-1, -1)
+preview_color = Color(0.49725276, 0.8302096, 0.40470803, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_b0ai3"]
+script = ExtResource("1_pprl4")
+type = 2
+pattern_index = 4
+pattern_offset = Vector2i(-2, -2)
+preview_color = Color(0.84943616, 0.604099, 0.16695392, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_0bqjo"]
+script = ExtResource("1_pprl4")
+type = 2
+pattern_index = 5
+pattern_offset = Vector2i(-2, -2)
+preview_color = Color(0.99622536, 0.2323928, 0.67195237, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_5t7vc"]
+script = ExtResource("3_6a2gd")
+materials = Array[ExtResource("2_juhuo")]([SubResource("Resource_j6iae"), SubResource("Resource_7o6lw"), SubResource("Resource_55rj8"), SubResource("Resource_wcjpr"), SubResource("Resource_b0ai3"), SubResource("Resource_0bqjo")])
+weights = PackedFloat32Array(5, 10, 10, 25, 25, 25)
+preview_color = Color(0.1698581, 0.003147505, 0.35746327, 1)
+metadata/_custom_type_script = "uid://dtocuov1r8agi"
+
+[sub_resource type="Resource" id="Resource_pprl4"]
+script = ExtResource("2_0xd4w")
+metadata/_custom_type_script = "uid://3qsmwhn2sk47"
+
+[sub_resource type="Resource" id="Resource_0xd4w"]
+script = ExtResource("2_0xd4w")
+metadata/_custom_type_script = "uid://3qsmwhn2sk47"
+
+[sub_resource type="Resource" id="Resource_juhuo"]
+script = ExtResource("2_0xd4w")
+metadata/_custom_type_script = "uid://3qsmwhn2sk47"
+
+[sub_resource type="Resource" id="Resource_6a2gd"]
+script = ExtResource("2_0xd4w")
+metadata/_custom_type_script = "uid://3qsmwhn2sk47"
+
+[resource]
+script = ExtResource("3_juhuo")
+layers = Array[ExtResource("2_0xd4w")]([SubResource("Resource_pprl4"), SubResource("Resource_0xd4w"), SubResource("Resource_juhuo"), SubResource("Resource_6a2gd")])
+preview_seed = 4236963009
+preview_world_size = Vector3i(64, 64, 1)
+preview_chunk_size = Vector3i(64, 64, 1)
+save_version = 5
+_connections = Array[StringName]([&"4-0-5-0", &"5-0-9-0", &"10-0-13-0", &"13-0-0-1", &"7-0-14-1", &"14-0-13-1", &"2-0-1-0", &"1-0-10-1", &"1-0-9-1", &"12-0-15-0", &"16-0-17-0", &"17-0-18-0", &"17-1-19-0", &"18-0-20-0", &"19-0-20-1", &"20-0-15-1", &"25-0-26-0", &"20-0-26-1", &"26-0-27-0", &"27-0-28-0", &"28-0-30-0", &"31-0-10-0", &"9-0-31-0", &"30-0-31-1", &"29-0-28-1", &"3-0-5-1", &"8-0-1-1", &"34-0-33-0", &"32-0-33-1", &"33-0-35-1", &"10-0-35-0", &"36-0-0-0", &"3-0-30-1", &"35-0-36-2", &"31-0-36-1", &"37-0-36-0", &"38-0-37-0", &"39-0-37-1", &"15-0-14-0"])
+_node_data = Dictionary[int, Dictionary]({
+0: {
+&"position": Vector2(1880, 20),
+&"salt": 3814142646,
+&"type": 0,
+&"uid": "uid://dol7xviglksx4"
+},
+1: {
+&"arguments": {
+&"range": {
+"max": 0.3,
+"min": 0.0
+}
+},
+&"position": Vector2(-360, 20),
+&"salt": 30230369,
+&"type": 0,
+&"uid": "uid://djjvx650evm0n"
+},
+2: {
+&"arguments": {
+&"frequency": 0.1
+},
+&"enums": [5],
+&"position": Vector2(-800, -100),
+&"salt": 255685385,
+&"type": 0,
+&"uid": "uid://cgjyi804j05dy"
+},
+3: {
+&"arguments": {
+&"name": "BaseGrass"
+},
+&"position": Vector2(-900, -440),
+&"salt": 567429359,
+&"type": 0,
+&"uid": "uid://cqs1w714pbfql"
+},
+4: {
+&"arguments": {
+&"value": 1.0
+},
+&"position": Vector2(-860, -600),
+&"salt": 1510294732,
+&"type": 0,
+&"uid": "uid://b7naniphpp341"
+},
+5: {
+&"position": Vector2(-520, -440),
+&"salt": 3133841347,
+&"type": 0,
+&"uid": "uid://dux0bq53p61ls"
+},
+7: {
+&"arguments": {
+&"name": "TreesAndBushes"
+},
+&"position": Vector2(620, -540),
+&"salt": 1346930885,
+&"type": 0,
+&"uid": "uid://cqs1w714pbfql"
+},
+8: {
+&"arguments": {
+&"name": "Cement"
+},
+&"position": Vector2(-800, 300),
+&"salt": 3753616225,
+&"type": 0,
+&"uid": "uid://cqs1w714pbfql"
+},
+9: {
+&"enums": [0],
+&"position": Vector2(260, 260),
+&"salt": 4202588136,
+&"type": 0,
+&"uid": "uid://d2f6bjkxcn7jl"
+},
+10: {
+&"enums": [3],
+&"position": Vector2(1120, 80),
+&"salt": 1159926113,
+&"type": 0,
+&"uid": "uid://d2f6bjkxcn7jl"
+},
+12: {
+&"arguments": {
+&"frequency": 0.5,
+&"lacunarity": 2.0,
+&"octaves": 8.0
+},
+&"enums": [0],
+&"position": Vector2(40, -880),
+&"salt": 3762619130,
+&"type": 0,
+&"uid": "uid://cgjyi804j05dy"
+},
+13: {
+&"enums": [1],
+&"position": Vector2(1440, -400),
+&"salt": 1660128226,
+&"type": 0,
+&"uid": "uid://d2f6bjkxcn7jl"
+},
+14: {
+&"arguments": {
+&"amount": 16.0
+},
+&"position": Vector2(1000, -560),
+&"salt": 4086273203,
+&"type": 0,
+&"uid": "uid://bjmyuomcmtwq6"
+},
+15: {
+&"arguments": {
+&"distance_range": {
+"max": 55.0,
+"min": 0.0
+}
+},
+&"position": Vector2(640, -1000),
+&"salt": 4086273203,
+&"type": 0,
+&"uid": "uid://dnj3grm2qv20y"
+},
+16: {
+&"position": Vector2(-440, -1240),
+&"salt": 4086273203,
+&"type": 0,
+&"uid": "uid://fc8vogh4mvhw"
+},
+17: {
+&"enums": [10],
+&"position": Vector2(-180, -1260),
+&"salt": 3130922375,
+&"type": 0,
+&"uid": "uid://b1vu2sfwynxql"
+},
+18: {
+&"arguments": {
+&"a": 0,
+&"b": 2.0
+},
+&"enums": [3],
+&"position": Vector2(80, -1320),
+&"salt": 1221448334,
+&"type": 0,
+&"uid": "uid://w54hu2yjl4du"
+},
+19: {
+&"arguments": {
+&"a": 0,
+&"b": 2.0
+},
+&"enums": [3],
+&"position": Vector2(80, -1100),
+&"salt": 3362245589,
+&"type": 0,
+&"uid": "uid://w54hu2yjl4du"
+},
+20: {
+&"enums": [10],
+&"position": Vector2(340, -1180),
+&"salt": 3199466058,
+&"type": 0,
+&"uid": "uid://c1koyt7wh4c4v"
+},
+25: {
+&"arguments": {
+&"value": 1.0
+},
+&"position": Vector2(480, -1460),
+&"salt": 3060332347,
+&"type": 0,
+&"uid": "uid://b7naniphpp341"
+},
+26: {
+&"arguments": {
+&"distance_range": {
+"max": 55.0,
+"min": 0.0
+}
+},
+&"position": Vector2(960, -1420),
+&"salt": 1432487130,
+&"type": 0,
+&"uid": "uid://dnj3grm2qv20y"
+},
+27: {
+&"enums": [2],
+&"position": Vector2(1380, -1300),
+&"salt": 1919199303,
+&"type": 0,
+&"uid": "uid://0vv1gfyt6147"
+},
+28: {
+&"enums": [1],
+&"position": Vector2(1660, -1120),
+&"salt": 1919199303,
+&"type": 0,
+&"uid": "uid://0vv1gfyt6147"
+},
+29: {
+&"arguments": {
+&"frequency": 0.01,
+&"lacunarity": 2.0,
+&"octaves": 4.0
+},
+&"enums": [3],
+&"position": Vector2(1400, -1600),
+&"salt": 2174390825,
+&"type": 0,
+&"uid": "uid://cgjyi804j05dy"
+},
+30: {
+&"arguments": {
+&"range": {
+"max": 0.45,
+"min": 0.0
+}
+},
+&"position": Vector2(440, -180),
+&"salt": 3285359966,
+&"type": 0,
+&"uid": "uid://djjvx650evm0n"
+},
+31: {
+&"enums": [3],
+&"position": Vector2(820, 380),
+&"salt": 3394803788,
+&"type": 0,
+&"uid": "uid://d2f6bjkxcn7jl"
+},
+32: {
+&"arguments": {
+&"name": "MaterialParameter"
+},
+&"position": Vector2(800, 980),
+&"salt": 1764462683,
+&"type": 0,
+&"uid": "uid://cqs1w714pbfql"
+},
+33: {
+&"position": Vector2(1200, 800),
+&"salt": 3394803788,
+&"type": 0,
+&"uid": "uid://dux0bq53p61ls"
+},
+34: {
+&"arguments": {
+&"value": 1.0
+},
+&"position": Vector2(820, 800),
+&"salt": 3265705717,
+&"type": 0,
+&"uid": "uid://b7naniphpp341"
+},
+35: {
+&"enums": [1],
+&"position": Vector2(1440, 540),
+&"salt": 1466569629,
+&"type": 0,
+&"uid": "uid://d2f6bjkxcn7jl"
+},
+36: {
+&"position": Vector2(1680, 240),
+&"salt": 1530726858,
+&"type": 0,
+&"uid": "uid://d2f6bjkxcn7jl"
+},
+37: {
+&"position": Vector2(1460, 1020),
+&"salt": 2217015228,
+&"type": 0,
+&"uid": "uid://dux0bq53p61ls"
+},
+38: {
+&"arguments": {
+&"value": 1.0
+},
+&"position": Vector2(1200, 1100),
+&"salt": 495333262,
+&"type": 0,
+&"uid": "uid://b7naniphpp341"
+},
+39: {
+&"arguments": {
+&"name": "MaterialParameter2"
+},
+&"position": Vector2(1160, 1320),
+&"salt": 4219947193,
+&"type": 0,
+&"uid": "uid://cqs1w714pbfql"
+}
+})
+_parameters = Dictionary[StringName, Variant]({
+&"BaseGrass": {
+"hint": 17,
+"hint_string": "GaeaMaterial",
+"name": &"BaseGrass",
+"type": 24,
+"usage": 4,
+"value": SubResource("Resource_tw3kd")
+},
+&"Cement": {
+"hint": 17,
+"hint_string": "GaeaMaterial",
+"name": &"Cement",
+"type": 24,
+"usage": 4,
+"value": SubResource("Resource_cg8yd")
+},
+&"MaterialParameter": {
+"hint": 17,
+"hint_string": "GaeaMaterial",
+"name": "MaterialParameter",
+"type": 24,
+"usage": 4,
+"value": ExtResource("4_6a2gd")
+},
+&"MaterialParameter2": {
+"hint": 17,
+"hint_string": "GaeaMaterial",
+"name": "MaterialParameter2",
+"type": 24,
+"usage": 4,
+"value": SubResource("Resource_0q5a4")
+},
+&"TreesAndBushes": {
+"hint": 17,
+"hint_string": "GaeaMaterial",
+"name": &"TreesAndBushes",
+"type": 24,
+"usage": 4,
+"value": SubResource("Resource_5t7vc")
+}
+})
+metadata/_custom_type_script = "uid://dae6umbqb872e"

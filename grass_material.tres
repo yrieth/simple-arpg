@@ -1,0 +1,67 @@
+[gd_resource type="Resource" script_class="PointwiseRandomGaeaMaterial" format=3 uid="uid://bx1wv75m5dqvc"]
+
+[ext_resource type="Script" uid="uid://cj08rybcfwlle" path="res://addons/gaea/runtime/resources/materials/material.gd" id="1_p3eg5"]
+[ext_resource type="Script" uid="uid://e45byecr4gi6" path="res://addons/gaea/runtime/resources/materials/data/tilemap_material.gd" id="2_lyvhj"]
+[ext_resource type="Script" uid="uid://dtocuov1r8agi" path="res://addons/gaea/runtime/resources/materials/distribution/pointwise_random_material.gd" id="3_e8hba"]
+
+[sub_resource type="Resource" id="Resource_0q5a4"]
+script = ExtResource("2_lyvhj")
+source_id = 6
+preview_color = Color(0.78838897, 0.26450685, 0.0023176528, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_prgpx"]
+script = ExtResource("2_lyvhj")
+source_id = 6
+atlas_coord = Vector2i(0, 6)
+preview_color = Color(0.5772242, 0.15172067, 0.07055305, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_cr40m"]
+script = ExtResource("2_lyvhj")
+source_id = 6
+atlas_coord = Vector2i(7, 1)
+preview_color = Color(0.54239696, 0.056658074, 0.94371456, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_6y05m"]
+script = ExtResource("2_lyvhj")
+source_id = 6
+atlas_coord = Vector2i(5, 2)
+preview_color = Color(0.39222428, 0.48773476, 0.6191146, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_uxhyt"]
+script = ExtResource("2_lyvhj")
+source_id = 6
+atlas_coord = Vector2i(8, 5)
+preview_color = Color(0.2531493, 0.7962122, 0.46144396, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_akftq"]
+script = ExtResource("2_lyvhj")
+source_id = 6
+atlas_coord = Vector2i(10, 7)
+preview_color = Color(0.4037217, 0.14920609, 0.9422887, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_8ktev"]
+script = ExtResource("2_lyvhj")
+source_id = 6
+atlas_coord = Vector2i(11, 1)
+preview_color = Color(0.09552547, 0.32222483, 0.66682684, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[sub_resource type="Resource" id="Resource_oytcs"]
+script = ExtResource("2_lyvhj")
+source_id = 6
+atlas_coord = Vector2i(15, 1)
+preview_color = Color(0.7186308, 0.85457873, 0.7900476, 1)
+metadata/_custom_type_script = "uid://e45byecr4gi6"
+
+[resource]
+script = ExtResource("3_e8hba")
+materials = Array[ExtResource("1_p3eg5")]([SubResource("Resource_0q5a4"), SubResource("Resource_prgpx"), SubResource("Resource_cr40m"), SubResource("Resource_6y05m"), SubResource("Resource_uxhyt"), SubResource("Resource_akftq"), SubResource("Resource_8ktev"), SubResource("Resource_oytcs")])
+weights = PackedFloat32Array(70, 6, 6, 6, 3, 3, 3, 3)
+preview_color = Color(0.45509547, 0.74962807, 0.2225513, 1)
+metadata/_custom_type_script = "uid://dtocuov1r8agi"
