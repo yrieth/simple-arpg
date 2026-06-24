@@ -66,4 +66,20 @@ ui_down={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
+
+[shader_globals]
+
+WORLD_HORIZON_COLOUR={
+"type": "vec4",
+"value": Vector4(0.744, 0.744, 0.744, 1)
+}
+WORLD_SKY_COLOUR={
+"type": "vec4",
+"value": Vector4(0.27, 0.725, 0.914, 1)
+}
+WORLD_LIGHT={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
